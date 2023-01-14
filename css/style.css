@@ -9,12 +9,26 @@
 }
 .redes__itemsws{
     list-style: none;
-}
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
     
+    
+    
+}
+ 
+.uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
 
 .w{
     display: flex;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: end;
+
     position: fixed;
     color: green;
     font-size: 25px;
