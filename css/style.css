@@ -50,16 +50,10 @@
     text-decoration: none;
 }
 
- 
-    
- 
   
-  
-     
-
-  /*main*/
+   /*main*/
    
- .escuchando{
+ .pedidos{
     
     
         /* ff 3.6+ */
@@ -95,8 +89,8 @@
 
    
     background-image: url(../picture/burbujasefecto.jpg);
-    display: inline-flex;
-    width: 195vh;
+  
+    
     text-align: center;
     text-align: justify;
     padding: 10%;
@@ -379,6 +373,8 @@
 
 .card{
    margin: 25px;
+   width: 18rem;";
+
 }
 
     
