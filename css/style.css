@@ -1,10 +1,6 @@
 
 /* css index */
-*{
-    padding: 0;
-    margin: 0;
 
-}
 
 .fondo{
     background-color: #5a58e4;
@@ -12,6 +8,9 @@
 .container-mio{
     background-image: url(../picture/patron-fisuras-burbujas-azul_1284-43368.webp)
 }
+
+
+
 .redes__itemsws{
     list-style: none;
     display: flex;
