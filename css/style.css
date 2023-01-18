@@ -7,6 +7,7 @@
 }
 .container-mio{
     background-image: url(../picture/patron-fisuras-burbujas-azul_1284-43368.webp)
+    
 }
 
 
@@ -28,6 +29,7 @@
 
 }
 
+
 .w{
     display: flex;
     flex-direction: row;
@@ -41,13 +43,19 @@
   
 }
 
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 
+}
 .menul{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: start;
     font-size: 20px;
     padding: 5px;
-    margin: 15px;
+    margin: 5px;
     color: rgba(241, 13, 241, 0.815)
 
  }
