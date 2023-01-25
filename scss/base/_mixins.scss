@@ -1,0 +1,25 @@
+@mixin footer{
+    
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    
+} 
+
+@mixin color($color){
+    color: $color;
+}
+
+@mixin wsf{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: fixed;
+    list-style: none;
+}
+
+@mixin barra{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+}
