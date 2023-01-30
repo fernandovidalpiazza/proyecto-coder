@@ -1,0 +1,196 @@
+@mixin footer{
+    
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    
+} 
+
+@mixin color($color){
+    color: $color;
+}
+
+@mixin wsf{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: fixed;
+    list-style: none;
+}
+
+@mixin barra{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+}
+
+@mixin parrafo{
+    font-family: 'Aclonica', sans-serif;
+
+
+}
+
+@mixin subititulo{
+    height: 250px;
+    font-size: 60px;
+    color: darkmagenta;
+    padding: 20px 15px 20px 15px;
+    margin: 5px 1px 100px 5px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    background-image: url(../picture/pocima\ 2.jfif );
+    height: 206px;
+    
+}
+
+@mixin estamano{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 17%;
+}   
+
+
+@mixin efecto1{
+    
+        /* ff 3.6+ */
+        background:-moz-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%); 
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#E9E9E9', GradientType=0 );
+    
+        /* ie 10+ */
+        background:-ms-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+    
+        /* global 94%+ browsers support */
+        background:linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+    
+    
+    transition: all 1.5s linear;
+}  
+
+@mixin efecto2{
+ /* ff 3.6+ */
+ background:-moz-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%); 
+    
+ /* safari 5.1+,chrome 10+ */
+ background:-webkit-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* opera 11.10+ */
+ background:-o-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* ie 6-9 */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#E9E9E9', GradientType=0 );
+
+ /* ie 10+ */
+ background:-ms-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* global 94%+ browsers support */
+ background:linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+transition: all 1.5s ease;
+} 
+
+@mixin efecto3{
+ /* ff 3.6+ */
+ background:-moz-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%); 
+    
+ /* safari 5.1+,chrome 10+ */
+ background:-webkit-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* opera 11.10+ */
+ background:-o-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* ie 6-9 */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#E9E9E9', GradientType=0 );
+
+ /* ie 10+ */
+ background:-ms-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* global 94%+ browsers support */
+ background:linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+transition: all 1.5s ease-in-out;
+
+}
+
+@mixin efecto4{
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%); 
+    
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#E9E9E9', GradientType=0 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+    transition: all 1.5s ease-out;
+}
+
+@mixin efecto5{
+ /* ff 3.6+ */
+ background:-moz-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%); 
+    
+ /* safari 5.1+,chrome 10+ */
+ background:-webkit-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* opera 11.10+ */
+ background:-o-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* ie 6-9 */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#E9E9E9', GradientType=0 );
+
+ /* ie 10+ */
+ background:-ms-linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+
+ /* global 94%+ browsers support */
+ background:linear-gradient(90deg, rgba(233, 233, 233, 1) 0%, rgba(0, 188, 212, 0.15) 14%, rgba(238, 130, 238, 1) 100%);
+transition: all 1.5s ease;
+
+}
+
+@mixin efecto_final{
+    transform:translateY(500px)
+
+}
+
+@mixin contacto{
+    color: darkmagenta;
+   font-family: 'Aclonica', sans-serif;
+    font-size: 25px;
+}
+
+@mixin texscroll{
+   
+    width: 250px;
+    height: 243px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+    
+}
+@mixin redesestilo{
+    list-style: none;
+    font-size: 50px;
+}
+@mixin titulos{
+    font-size: 100px;
+    color: darkmagenta;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+}
+

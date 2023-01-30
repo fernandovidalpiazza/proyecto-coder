@@ -1,0 +1,451 @@
+.menul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.boton {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.w {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: fixed;
+  list-style: none;
+}
+
+/* css index */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fondo {
+  background-color: #5a58e4;
+}
+
+.container-mio {
+  background: url(../picture/patron-fisuras-burbujas-azul_1284-43368.webp);
+}
+
+.w {
+  color: green;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 25px;
+  position: fixed;
+}
+
+.boton {
+  color: green;
+}
+
+.menul {
+  color: rgba(241, 13, 241, 0.815);
+}
+
+.container-fluid {
+  display: flex;
+  justify-items: end;
+}
+
+.felices {
+  background-image: url(../picture/patron-fisuras-burbujas-azul_1284-43368.webp);
+}
+
+.titulo {
+  font-size: 100px;
+  color: darkmagenta;
+  padding: 20px 5px 20px 5px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+}
+
+.parrafo {
+  background-image: url(../picture/burbujasefecto.jpg);
+  text-align: justify;
+  padding: 10%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  gap: 30px;
+  font-family: "Aclonica", sans-serif;
+  color: rgb(247, 251, 253);
+  font-size: 30px;
+  font-family: "Aclonica", sans-serif;
+}
+
+.sub {
+  height: 250px;
+  font-size: 60px;
+  color: darkmagenta;
+  padding: 20px 15px 20px 15px;
+  margin: 5px 1px 100px 5px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  background-image: url(../picture/pocima\ 2.jfif);
+  height: 206px;
+}
+
+/*estrellas*/
+.container__estrellas {
+  display: disabled;
+}
+
+.estrellas1, .estrellas2, .estrellas3, .estrellas4, .estrellas5 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 17%;
+}
+
+.estrellas1 {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ee82ee", endColorstr="#E9E9E9", GradientType=0 );
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  transition: all 1.5s linear;
+}
+
+.estrellas2 {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ee82ee", endColorstr="#E9E9E9", GradientType=0 );
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  transition: all 1.5s ease;
+}
+
+.estrellas3 {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ee82ee", endColorstr="#E9E9E9", GradientType=0 );
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  transition: all 1.5s ease-in-out;
+}
+
+.estrellas4 {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ee82ee", endColorstr="#E9E9E9", GradientType=0 );
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  transition: all 1.5s ease-out;
+}
+
+.estrellas5 {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ee82ee", endColorstr="#E9E9E9", GradientType=0 );
+  /* ie 10+ */
+  background: -ms-linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(233, 233, 233) 0%, rgba(0, 188, 212, 0.15) 14%, rgb(238, 130, 238) 100%);
+  transition: all 1.5s ease;
+}
+
+.container__estrellas:hover .estrellas1,
+.container__estrellas:hover .estrellas2,
+.container__estrellas:hover .estrellas3,
+.container__estrellas:hover .estrellas4,
+.container__estrellas:hover .estrellas5 {
+  transform: translateY(500px);
+}
+
+.wl {
+  color: green;
+}
+
+.yt {
+  color: red;
+}
+
+.in {
+  color: red;
+}
+
+.re {
+  list-style: none;
+  font-size: 50px;
+}
+
+.foto__logo {
+  width: 25%;
+}
+
+.scroll {
+  color: rgba(241, 13, 241, 0.815);
+  width: 250px;
+  height: 243px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.texto {
+  padding: 50px;
+}
+
+/*footer*/
+.contacto {
+  color: darkmagenta;
+  font-family: "Aclonica", sans-serif;
+  font-size: 25px;
+}
+
+.face, .tw, .goo, .ins, .link, .git {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.face {
+  background-color: #00c3ff;
+}
+
+.tw {
+  background-color: #55acee;
+}
+
+.goo {
+  background-color: #dd4b39;
+}
+
+.ins {
+  background-color: rgba(248, 6, 6, 0.8705882353);
+}
+
+.link {
+  background-color: #00c3ff;
+}
+
+.git {
+  background-color: black;
+}
+
+/*ccss pocimas**********/
+.catalogo {
+  color: darkmagenta;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  font-size: 50px;
+  margin: 15px;
+  padding: 50px;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgb(238, 130, 238) 100%);
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgb(238, 130, 238) 100%);
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgb(238, 130, 238) 100%);
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgb(238, 130, 238) 100%);
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgb(238, 130, 238) 100%);
+}
+
+.card {
+  margin: 25px;
+  width: 18rem;
+}
+
+.felices__b {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding: 5px;
+  height: 70px;
+  content: Donar;
+  font-family: fantasy;
+  color: #766394;
+  font-size: 40px;
+  font-weight: normal;
+  text-shadow: 5px 1px 5px #4a6ba1;
+  background-color: #d9d4d4;
+  box-shadow: 0px 0px 10px #0000ff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top: 5px solid #0000ff;
+  border-bottom: 5px solid #0000ff;
+  border-left: 5px solid #0000ff;
+  border-right: 5px solid #0000ff;
+  border-radius: 15px;
+}
+
+/********css nuestra fabrica*****/
+.titulof, .subtitulof {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo__fabrica {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 450%;
+  color: #766394;
+}
+
+.subtitulo__fabrica {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 500%;
+  color: #766394;
+  margin-bottom: 50px;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.produccion__f, .estiva__f {
+  width: 40%;
+  padding: 10px;
+}
+
+.estiva__f {
+  width: 47%;
+  padding: 10px;
+}
+
+/*footer fabrica*/
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+/**********css clientes felices****/
+.titulosfe {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.fondo__fe {
+  height: 200px;
+  background-image: url(../picture/pocima\ 2.jfif);
+  margin: 50px;
+}
+
+.subtitulofel {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mydiv {
+  position: relative;
+  margin: 13%;
+  width: 70%;
+  height: 200px;
+  background: linear-gradient(90deg, rgba(51, 37, 114, 0.699), #7406f1);
+  padding: 95px;
+}
+
+.animate-bg:before, .animate-bg:after {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  background: linear-gradient(120deg, #79fb00, #8d01a0, #031ba5, #ff004c, #e6036d, #fb0094, #ff6600, #04c2e4, #adad02, #00c3ff);
+  background-size: 300%;
+  width: calc(100% + 16px);
+  height: calc(100% + 16px);
+  z-index: -1;
+  animation: BGgradient 15s ease infinite;
+}
+
+@keyframes BGgradient {
+  0% {
+    background-position: 0% 200%;
+  }
+  50% {
+    background-position: 200% 0%;
+  }
+  100% {
+    background-position: 0% 330%;
+  }
+}
+.animate-bg:after {
+  filter: brightness(1.4);
+  filter: drop-shadow(16px 16px 20px rgb(248, 220, 97));
+  filter: blur(15px);
+}
+
+.videos__fel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 50% 50px;
+  height: 200px;
+  margin: 50px;
+  margin-bottom: 25%;
+}
+
+/**********footer***/
+/* css donacion */
+.color__bodyd {
+  background-color: cornflowerblue;
+}
+
+.donar__1 {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50% 50px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */
