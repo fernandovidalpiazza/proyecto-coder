@@ -28,7 +28,7 @@
   list-style: none;
 }
 
-/* css index */
+
 * {
   padding: 0;
   margin: 0;
@@ -271,7 +271,10 @@
   background-color: black;
 }
 
+
+
 /*ccss pocimas**********/
+
 .catalogo {
   color: darkmagenta;
   text-align: center;
@@ -291,6 +294,11 @@
   background: radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgb(238, 130, 238) 100%);
 }
 
+.animate-bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .card {
   margin: 25px;
   width: 18rem;
@@ -368,10 +376,17 @@
   margin: 50px;
 }
 
-.fondo__fe {
-  height: 200px;
+
+
+
+.imgp{
+
+  padding: 70px;
+  margin-top: 30px;
   background-image: url(../picture/pocima\ 2.jfif);
-  margin: 50px;
+  display: flex;
+  justify-content:  center;
+ 
 }
 
 .subtitulofel {
@@ -421,15 +436,7 @@
   filter: blur(15px);
 }
 
-.videos__fel {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 50% 50px;
-  height: 200px;
-  margin: 50px;
-  margin-bottom: 25%;
-}
+
 
 /**********footer***/
 /* css donacion */
