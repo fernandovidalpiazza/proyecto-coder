@@ -456,16 +456,32 @@
 .color__bodyd {
   background-color: cornflowerblue;
 }
+.boton{
+  content: Donar;
+  font-family: fantasy;
+  color: #8994c9;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 8px 1px 6px #1a3291;
+  background-color: #00ffff;
+  box-shadow: 10px 9px 10px #0000ff;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top: 4px solid #0000ff;
+  border-bottom: 1px solid #0000ff;
+  border-left: 0px solid #0000ff;
+  border-right: 0px solid #0000ff;
+  border-radius: 5px;
+}
 
-.donar__1 {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 50% 50px;
-  display: flex;
-  justify-content: center;
-  height: 200px;
-  margin: 150px;
+.donar{
+display: flex;
+justify-content: center;
+}
+.imgdonar2,.imgdonar3{
+  height: 175px;
 }
 
 /*# sourceMappingURL=style.css.map */
