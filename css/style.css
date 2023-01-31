@@ -362,6 +362,20 @@
   width: 47%;
   padding: 10px;
 }
+.carta2{
+  height: 280px;
+  
+  
+}
+.foto_fabrica1{
+  height: 210px;
+  width: 100%;
+}
+.foto_farbica2{
+  height: 500px;
+  width: 100%;
+}
+
 
 /*footer fabrica*/
 .mapa {
@@ -438,7 +452,6 @@
 
 
 
-/**********footer***/
 /* css donacion */
 .color__bodyd {
   background-color: cornflowerblue;
