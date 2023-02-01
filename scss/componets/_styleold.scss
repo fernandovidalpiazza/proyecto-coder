@@ -33,6 +33,11 @@
 .menul{
     @extend %disposicion;
     color: $menu;
+    @include efectobarra;
+
+    
+    
+
 
  }
  .container-fluid{
@@ -53,7 +58,7 @@
  
 
  .titulo{
-      @include titulos
+      @include titulos;
  }
 
  

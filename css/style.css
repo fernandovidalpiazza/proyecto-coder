@@ -28,7 +28,7 @@
   list-style: none;
 }
 
-
+/* css index */
 * {
   padding: 0;
   margin: 0;
@@ -56,6 +56,14 @@
 
 .menul {
   color: rgba(241, 13, 241, 0.815);
+  overflow: hidden;
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.menul a:hover {
+background-color: rgb(94, 121, 240);
 }
 
 .container-fluid {
@@ -271,10 +279,7 @@
   background-color: black;
 }
 
-
-
 /*ccss pocimas**********/
-
 .catalogo {
   color: darkmagenta;
   text-align: center;
@@ -294,11 +299,6 @@
   background: radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgb(238, 130, 238) 100%);
 }
 
-.animate-bg{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .card {
   margin: 25px;
   width: 18rem;
@@ -362,20 +362,6 @@
   width: 47%;
   padding: 10px;
 }
-.carta2{
-  height: 280px;
-  
-  
-}
-.foto_fabrica1{
-  height: 210px;
-  width: 100%;
-}
-.foto_farbica2{
-  height: 500px;
-  width: 100%;
-}
-
 
 /*footer fabrica*/
 .mapa {
@@ -390,17 +376,10 @@
   margin: 50px;
 }
 
-
-
-
-.imgp{
-
-  padding: 70px;
-  margin-top: 30px;
+.fondo__fe {
+  height: 200px;
   background-image: url(../picture/pocima\ 2.jfif);
-  display: flex;
-  justify-content:  center;
- 
+  margin: 50px;
 }
 
 .subtitulofel {
@@ -450,38 +429,31 @@
   filter: blur(15px);
 }
 
+.videos__fel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 50% 50px;
+  height: 200px;
+  margin: 50px;
+  margin-bottom: 25%;
+}
 
-
+/**********footer***/
 /* css donacion */
 .color__bodyd {
   background-color: cornflowerblue;
 }
-.boton{
-  content: Donar;
-  font-family: fantasy;
-  color: #8994c9;
-  font-size: 40px;
-  font-weight: bold;
-  text-shadow: 8px 1px 6px #1a3291;
-  background-color: #00ffff;
-  box-shadow: 10px 9px 10px #0000ff;
-  padding-top: 7px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top: 4px solid #0000ff;
-  border-bottom: 1px solid #0000ff;
-  border-left: 0px solid #0000ff;
-  border-right: 0px solid #0000ff;
-  border-radius: 5px;
-}
 
-.donar{
-display: flex;
-justify-content: center;
-}
-.imgdonar2,.imgdonar3{
-  height: 175px;
+.donar__1 {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50% 50px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

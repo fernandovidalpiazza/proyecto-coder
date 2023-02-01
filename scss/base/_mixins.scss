@@ -6,9 +6,17 @@
     
 } 
 
-@mixin color($color){
-    color: $color;
+@mixin efectobarra{
+    overflow: hidden;
+   
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
 }
+
+
 
 @mixin wsf{
     display: flex;
