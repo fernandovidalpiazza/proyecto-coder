@@ -28,7 +28,7 @@
   list-style: none;
 }
 
-/* css index */
+
 * {
   padding: 0;
   margin: 0;
@@ -83,6 +83,7 @@ background-color: rgb(94, 121, 240);
   font-family: "Aclonica", sans-serif;
 }
 
+
 .parrafo {
   background-image: url(../picture/burbujasefecto.jpg);
   text-align: justify;
@@ -96,7 +97,7 @@ background-color: rgb(94, 121, 240);
   font-family: "Aclonica", sans-serif;
 }
 
-.sub {
+.subtituloindex {
   height: 250px;
   font-size: 60px;
   color: darkmagenta;
@@ -236,10 +237,12 @@ background-color: rgb(94, 121, 240);
   height: 243px;
   overflow: scroll;
   overflow-x: hidden;
+  font-family: "Aclonica", sans-serif;
 }
 
 .texto {
   padding: 50px;
+  font-family: "Aclonica", sans-serif;
 }
 
 /*footer*/
@@ -370,11 +373,7 @@ background-color: rgb(94, 121, 240);
 }
 
 /**********css clientes felices****/
-.titulosfe {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-}
+
 
 .fondo__fe {
   height: 200px;
@@ -429,17 +428,8 @@ background-color: rgb(94, 121, 240);
   filter: blur(15px);
 }
 
-.videos__fel {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 50% 50px;
-  height: 200px;
-  margin: 50px;
-  margin-bottom: 25%;
-}
 
-/**********footer***/
+
 /* css donacion */
 .color__bodyd {
   background-color: cornflowerblue;
