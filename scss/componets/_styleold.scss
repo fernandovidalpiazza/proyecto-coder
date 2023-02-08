@@ -196,39 +196,24 @@ background-color:$bfa;
 }
 .git{
     background-color:$bgit;
+
+
+
+
+
 }
 /*ccss pocimas**********/
 
 
 .catalogo{
-    color: darkmagenta;
-     text-align: center;
-    font-family: 'Aclonica', sans-serif;
-    font-size: 50px;
-    margin: 15px;
-    padding: 50px;
-     /* ff 3.6+ */
-     background:-moz-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgba(238, 130, 238, 1) 100%);
-
-     /* safari 5.1+,chrome 10+ */
-     background:-webkit-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgba(238, 130, 238, 1) 100%);
- 
-     /* opera 11.10+ */
-     background:-o-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgba(238, 130, 238, 1) 100%);
- 
-     /* ie 10+ */
-     background:-ms-radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgba(238, 130, 238, 1) 100%);
- 
-     /* global 92%+ browsers support */
-     background:radial-gradient(circle at 50% 50%, rgba(128, 32, 0, 0.44) 33%, rgba(238, 130, 238, 1) 100%);
+    @include catalogo;
 }
 
 
 
 
 .card{
-   margin: 25px;
-   width: 18rem;
+    @include card;
 
 }
 
@@ -237,116 +222,55 @@ background-color:$bfa;
 
 
 .felices__b{
-margin-top: 40px;
-margin-bottom: 5px;
-padding: 5px;
-height: 70px;
- content: Donar;
-    font-family: fantasy;
-    color: #766394;
-    font-size: 40px;
-    font-weight: normal;
-    text-shadow: 5px 1px 5px #4a6ba1;
-    background-color: #d9d4d4;
-    box-shadow: 0px 0px 10px #0000ff;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-top: 5px solid #0000ff;
-    border-bottom: 5px solid #0000ff;
-    border-left: 5px solid #0000ff;
-    border-right: 5px solid #0000ff;
-    border-radius: 15px;
+@include estilocard;
+
 }
+
+
 /********css nuestra fabrica*****/
+
+
 .titulof, .subtitulof{
-    display: flex;
-    justify-content: center;
+   @include titulos;
+     font-size: 10px;
 }
 .titulo__fabrica{
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 450%;
-    color: #766394;
-    
+    @include titulos;
 }
 
 .subtitulo__fabrica{
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 500%;
-     color: #766394;
-     margin-bottom: 50px;
-}
-.imagenes{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-.produccion__f, .estiva__f{
-width: 40%;
-padding: 10px;
+   @include subititulo;
 }
 
 
 
-
-
-.estiva__f{
-width: 47%;
-padding: 10px;
-}
-    
-/*footer fabrica*/  
-.mapa{
-    display: flex;
-    justify-content: center
-}
 
 /**********css clientes felices****/
 
 .titulosfe{
-    display: flex;
-     justify-content: center;
-     margin: 50px;
-}
-.fondo__fe{
-   
-   height: 200px;
-    background-image: url(../picture/pocima\ 2.jfif);
-    margin: 50px;
+    @include titulos;
 }
 
 
 .subtitulofel {
 	color: white;
-	display: flex;
-	flex-direction: column;
-    justify-content: center;
+    font-size: 35px;
 	
-    align-items: center;      
+    
+	
+     
 }
 
+
+
 .mydiv {
-	position: relative;
-	margin: 13%;
-	width: 70%;
-	height: 200px;
-    background: linear-gradient(90deg, rgba(51, 37, 114, 0.699), #7406f1); 
-    padding: 95px;
+	@include efectocartel;
+    
+    
 }
 
 .animate-bg:before, .animate-bg:after {
-	content: '';
-	position: absolute;
-	left: -8px;
-	top: -8px;
-	background: linear-gradient(120deg, #79fb00, #8d01a0, #031ba5,#ff004c,  
-	#e6036d, #fb0094,#ff6600, #04c2e4,#adad02, #00c3ff);
-	background-size: 300%;
-	width: calc(100% + 16px);
-	height: calc(100% + 16px);
-	z-index: -1;
-	animation: BGgradient 15s ease infinite; 
+	@include colorescartel;
 }
 
 @keyframes BGgradient {
@@ -368,22 +292,14 @@ padding: 10px;
 }
 
 
+*///
 
-
-
-.videos__fel{
     
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: auto;
-     grid-gap: 50% 50px;
-     height: 200px;
-     margin: 50px;
-     margin-bottom: 25%;
      
-}
+  
+    
 
-/**********footer***/
+
 
 /* css donacion */
 
@@ -391,17 +307,11 @@ padding: 10px;
     background-color: cornflowerblue;
  }
 
-.donar__1{
-    display: grid;
-     grid-template-rows: auto;
-     grid-template-columns: 1fr 1fr;
-     grid-gap: 50% 50px;
-     display: flex;
-     justify-content: center;
-     height: 200px;
-     margin: 150px;
 
-     
     
-    
+
+.donar{
+    display: flex;
+    justify-content: center;
+   
 }
