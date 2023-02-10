@@ -292,16 +292,39 @@ background-color:$bfa;
 }
 
 
-*///
+///* donacion*///
 
+.formulario {
     
-     
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    align-items: center;
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: #f112f1;
+}
+    
+.form-control{
+   width: 200%;
+    border: 1px solid rgb(56, 103, 233);
+    display: flex;
+    flex-direction: column;
   
+}
+     
+  .form-check-input{
+    color: #f112f1;
+    border: #f112f1;
+    background-color: aqua;
+    border: 1px solid rgb(56, 103, 233);
+  }
     
 
 
 
-/* css donacion */
+
 
 .color__bodyd{
     background-color: cornflowerblue;
@@ -314,4 +337,8 @@ background-color:$bfa;
     display: flex;
     justify-content: center;
    
+}
+
+.btn-primary{
+    @include estilocard
 }
